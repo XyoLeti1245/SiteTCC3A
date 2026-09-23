@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Painel Administrativo</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <!-- TOPO -->
+
+    <header class="topo">
+        <h2>Painel Administrativo</h2>
+        <div class="topright">
+            <!-- SAIR -->
+            <a href="logout.php" class="btn-sair">
+                Sair
+            </a>
+
+            <!-- ÁREA DE NOTIFICAÇÕES -->
+
+            <div class="area-notificacao">
+
+                <!-- SININHO -->
+
+                <button type="button" class="btn-notificacao" id="btnNotificacao">
+                    🔔
+                    <span class="contador-notificacao">1</span>
+                </button>
+                
+                <!-- menu das notificaçõs -->
+                 <div class="menu-notificacoes" id="menuNotificacoes">
+                    <h3>Notificações</h3>
+                 </div>
+
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo do painel -->
+     <main class="container">
+        <section class="boas-vindas">
+            <h1>
+                Bem-vindo Letícia!
+            </h1>
+            <p>
+                Acompanhe as informações da loja e gerencie os bolos cadastrados
+            </p>
+        </section>
+        <section class="dashboard">
+            <div class="card">
+                <h3>Bolos cadastrados</h3>
+                <div class="numero">20</div>
+            </div>
+            <div class="card">
+                <h3>Encomendas feitas</h3>
+                <div class="numero">10</div>
+            </div>
+            <div class="card">
+                <h3>Confirmadas</h3>
+                <div class="numero">5</div>
+            </div>
+        </section>
+
+        <section class="acoes">
+            <h2>Gerenciamento</h2>
+            <a href="cadastro_bolo.php" class="btn">Cadastrar bolo</a>
+            <a href="./html/formcad.html" class="btn">Cadastrar usuário</a>
+        </section>
+     </main>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuários</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="cadusu.php" method="post">
+            <input type="text" name="nome" maxlength="60" required placeholder="Nome">
+            <input type="email" name="email" maxlength="100" required placeholder="Email">
+            <input type="password" name="password" maxlength="8" required placeholder="Senha">
+            <select name="" id="">
+                <option value="">Selecione um nível</option>
+                <option value="1">Admnistrador</option>
+                <option value="2">Comum</option>
+
+            </select>
+            
+        </form>
+    </div>
+</body>
+</html>
